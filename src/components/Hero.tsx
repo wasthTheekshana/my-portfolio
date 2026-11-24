@@ -6,11 +6,6 @@ import { Portrait } from './Portrait';
 export function Hero() {
   return (
     <section id="hero" className="hero" aria-label="Introduction">
-      <p className="hero__q" data-reveal="fade" data-intro>
-        <b>Query</b>
-        <span>Who builds AI document systems, from prototype to production?<i className="caret" aria-hidden="true" /></span>
-      </p>
-
       <Answer />
       <Portrait />
 

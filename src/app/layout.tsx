@@ -7,7 +7,7 @@ import './globals.css';
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
-  title: { default: `${site.first} ${site.last} | Senior Software Engineer, document AI`, template: `%s | ${site.first} ${site.last}` },
+  title: { default: `${site.first} ${site.last} | Senior Software Engineer`, template: `%s | ${site.first} ${site.last}` },
   description: site.description,
   alternates: { canonical: './' },
   openGraph: { type: 'website', siteName: `${site.first} ${site.last}`, locale: 'en_GB' },
@@ -35,11 +35,9 @@ const person = {
     { '@type': 'CollegeOrUniversity', name: 'University of Birmingham' },
     { '@type': 'CollegeOrUniversity', name: 'University of Sri Jayewardenepura' },
   ],
-  knowsAbout: ['Retrieval-augmented generation', 'OCR', 'Workflow automation', 'Python', 'FastAPI', 'Google Cloud'],
+  knowsAbout: ['Software architecture', 'Backend development', 'DevOps', 'Google Cloud', 'Python', 'Java', 'TypeScript'],
   knowsLanguage: ['English', 'Sinhala'],
   url: site.url,
-  email: `mailto:${site.email}`,
-  telephone: site.phone,
   sameAs: site.socials.map((s) => s.href),
 };
 
@@ -59,10 +57,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <div className="loader__inner">
             <p className="loader__line" data-loader-out>
               <span className="loader__mark" data-loader-bar aria-hidden="true" />
-              <span className="loader__name">{site.first} {site.last}</span>
+              <span className="loader__name">TH</span>
             </p>
             <p className="loader__meta" data-loader-out>
-              <span>Retrieving source</span>
+              <span>Senior Software Engineer</span>
               <span className="loader__count" data-loader-count>000</span>
             </p>
           </div>

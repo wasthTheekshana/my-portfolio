@@ -35,15 +35,13 @@ export const site = {
   first: 'Theekshana',
   last: 'Harischandra',
   sinhala: 'තීක්ෂණ හරිශ්චන්ද්‍ර',
-  role: 'Senior Software Engineer | Python, Java, AI & Document Automation',
+  role: 'Senior Software Engineer | Software Development, DevOps & Cloud',
   url: 'https://theekshanaharischandra.me',
   description:
-    'Theekshana Harischandra is a Senior Software Engineer and Tech Lead in Sri Lanka building RAG search, OCR and workflow automation for document-heavy teams.',
+    'Senior Software Engineer and Tech Lead in Sri Lanka. Designs, builds and runs software systems end to end, from architecture to production on the cloud.',
   email: 'wasathkaltheekshana@gmail.com',
-  phone: '+94 76 940 0460',
-  phoneHref: 'tel:+94769400460',
   statement:
-    'I build AI-powered document systems: RAG search, OCR and workflow automation, from prototype to production on cloud.',
+    'I design, build and run software systems end to end, from architecture to production on the cloud.',
   badges: ['4+ years experience', 'First Class Honours BSc', 'MSc in progress'],
   socials: [
     { label: 'LinkedIn', href: 'https://www.linkedin.com/in/theekshana-harischandra-572ab520a/' },
@@ -55,7 +53,7 @@ export const site = {
 };
 
 export const about = {
-  lead: 'I turn messy business documents into searchable, automated systems.',
+  lead: 'I design, build and run software systems from architecture to production.',
   paragraphs: [
     'I am a Senior Software Engineer and Tech Lead at DOK Solutions Lanka, a BOI-approved document management and BPO company in the ABANS Group.',
     'I lead infrastructure, product development and technical documentation across DocuMind, DOK OCR Pro, DOK CRM, DOK-HR, IDMS and AMF Archive. Before DOK, I spent about 2.5 years at Virtusa.',

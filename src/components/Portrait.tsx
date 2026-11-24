@@ -30,7 +30,6 @@ export function Portrait() {
     });
     const sweep = gsap.fromTo(scan, { y: 0 }, {
       y: () => frame.clientHeight, duration: 3.2, ease: 'power1.inOut', repeat: -1, yoyo: true, repeatDelay: 0.8,
-      invalidateOnRefresh: true,
     });
 
     const move = (e: PointerEvent) => {
@@ -46,6 +45,7 @@ export function Portrait() {
 
     const st = ScrollTrigger.create({
       trigger: el, start: 'top bottom', end: 'bottom top',
+      onRefresh: () => sweep.invalidate(),
       onToggle: (s) => [orbit, sweep].forEach((a) => (s.isActive ? a.play() : a.pause())),
     });
     return () => {
@@ -59,7 +59,7 @@ export function Portrait() {
     <figure ref={ref} className="portrait" data-reveal="clip" data-intro data-delay="0.35">
       <div className="portrait__img">
         <div className="portrait__base">
-          <Image src="/me.jpg" alt="Theekshana Harischandra, smiling in glasses and a navy suit, looking to the side" width={1254} height={1254} sizes="(max-width: 880px) 100vw, 66vw" priority quality={80} />
+          <Image src="/me.jpg" alt="Portrait of Theekshana Harischandra, Senior Software Engineer" width={1254} height={1254} sizes="(max-width: 880px) 100vw, 66vw" priority quality={80} />
         </div>
         <Image className="portrait__color" src="/me.jpg" alt="" aria-hidden="true" width={1254} height={1254} sizes="(max-width: 880px) 100vw, 66vw" quality={80} />
         <span className="portrait__box portrait__box--face" aria-hidden="true"><b>name</b></span>

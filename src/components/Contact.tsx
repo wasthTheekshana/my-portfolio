@@ -11,8 +11,7 @@ export function Contact() {
           <p className="contact__sub" data-reveal="up">Questions about a project, a role or a collaboration are all welcome.</p>
           <ContactForm />
           <ul className="contact__links" data-reveal="up">
-            <li><small>Email</small><a className="mk" href={`mailto:${site.email}`}>{site.email}</a></li>
-            <li><small>Phone</small><a className="mk" href={site.phoneHref}>{site.phone}</a></li>
+            <li><small>Email</small><a className="mk" href={`mailto:${site.email}`}>Send me an email</a></li>
             {site.socials.map((s) => (
               <li key={s.label}><small>{s.label}</small><a className="mk" href={s.href} target="_blank" rel="noopener noreferrer">{s.label}</a></li>
             ))}

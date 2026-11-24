@@ -1,5 +1,6 @@
 'use client';
 import { useEffect, useRef, useState } from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -58,7 +59,7 @@ export function Header() {
     <>
       <header className={`hdr${solid ? ' is-solid' : ''}${open ? ' is-open' : ''}`}>
         <Link href="/#hero" className="hdr__brand mk" aria-label="Theekshana H., home">
-          <span className="hdr__dot" aria-hidden="true" />
+          <Image className="hdr__logo" src="/logo.png" alt="" width={32} height={32} />
           Theekshana H.
         </Link>
         <nav className="hdr__nav" aria-label="Primary">
