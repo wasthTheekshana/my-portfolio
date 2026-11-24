@@ -17,7 +17,7 @@ The site is fully static Next.js, so Vercel needs no configuration: framework pr
 3. In the project, open Settings, Domains, and add `theekshanaharischandra.me` (and `www.theekshanaharischandra.me`). Set the DNS records Vercel shows at the domain registrar.
 4. Check `https://theekshanaharischandra.me/sitemap.xml` and `/robots.txt`, then submit the sitemap in Google Search Console.
 
-Already set: domain, email, phone, LinkedIn, GitHub and the real CV (`public/resume.pdf`). The domain lives in `site.url` in `src/data/site.ts`.
+Already set: domain, email, LinkedIn, GitHub and the real CV (`public/resume.pdf`). The domain lives in `site.url` in `src/data/site.ts`.
 
 ## Hidden for now
 
