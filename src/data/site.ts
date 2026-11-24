@@ -36,7 +36,7 @@ export const site = {
   last: 'Harischandra',
   sinhala: 'තීක්ෂණ හරිශ්චන්ද්‍ර',
   role: 'Senior Software Engineer | Software Development, DevOps & Cloud',
-  url: 'https://theekshanaharischandra.me',
+  url: 'https://www.theekshanaharischandra.me', // www is the primary address; Vercel redirects the bare domain to it
   description:
     'Senior Software Engineer and Tech Lead in Sri Lanka. Designs, builds and runs software systems end to end, from architecture to production on the cloud.',
   email: 'wasathkaltheekshana@gmail.com',

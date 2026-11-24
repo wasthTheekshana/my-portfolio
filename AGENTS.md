@@ -4,7 +4,7 @@ Rules for any AI coding agent working in this repository. Read this first, then 
 
 ## 1. Project overview
 
-- **What:** personal portfolio for Theekshana (Wasath) Harischandra, Senior Software Engineer. Live domain: `theekshanaharischandra.me` (Vercel).
+- **What:** personal portfolio for Theekshana (Wasath) Harischandra, Senior Software Engineer. Live domain: `www.theekshanaharischandra.me` (primary; the bare domain redirects to it on Vercel).
 - **Stage:** production (public site, real contact details, real CV).
 - **Concept:** the site is a cited answer (a RAG metaphor). The motion verb is "highlight" (lime marker). Do not drift from this without asking.
 - **Stack:** Next.js 16 (App Router, TypeScript), fully static (SSG), GSAP (ScrollTrigger, SplitText) + Lenis, plain CSS with tokens. Fonts: DM Serif Display, Geist, Geist Mono, Noto Sans Sinhala (all via `next/font`). No backend, no database, no env vars.

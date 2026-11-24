@@ -15,7 +15,7 @@ The site is fully static Next.js, so Vercel needs no configuration: framework pr
 1. Push this folder to a GitHub repository (`.shots`, `.audit.txt`, `node_modules` and `.next` are already git-ignored).
 2. On vercel.com choose Add New, Project, import the repository, and deploy.
 3. In the project, open Settings, Domains, and add `theekshanaharischandra.me` (and `www.theekshanaharischandra.me`). Set the DNS records Vercel shows at the domain registrar.
-4. Check `https://theekshanaharischandra.me/sitemap.xml` and `/robots.txt`, then submit the sitemap in Google Search Console.
+4. Keep `www.theekshanaharischandra.me` as the primary domain (it matches `site.url`); the bare domain redirects to it. Check `https://www.theekshanaharischandra.me/sitemap.xml` and `/robots.txt`, then submit the sitemap in Google Search Console.
 
 Already set: domain, email, LinkedIn, GitHub and the real CV (`public/resume.pdf`). The domain lives in `site.url` in `src/data/site.ts`.
 
